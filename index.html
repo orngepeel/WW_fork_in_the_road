@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <meta name="description" content="basic choose your own adventure using html/css/js; for Written Weeklies fork in the road">
+    <meta name="author" content="Devon Braner">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="main.js"></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>A Fork in the Road</h1>
+        <nav>
+          <a href="index.html">Reset</a>
+        </nav>
+      </header>
+      <!---story elements get replaced--->
+      <div id="story">
+          <label id="nameLabel" for="nameInput">Enter your name:</label>
+          <input id="nameInput" type="text"></input>
+          <button id="nameButton" type="submit">Begin</button>
+      </div>
+      <!---choices that affect the story--->
+      <div id="choices">
+      </div>
+    </div>
+  </body>
+</html>

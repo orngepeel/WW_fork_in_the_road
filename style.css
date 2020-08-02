@@ -1,0 +1,90 @@
+/*
+Colors:
+celadon: #AFD5AA
+cultured: #F0F2EF
+umber: #5C5346
+quick silver: #A69F98
+rose taupe: #8C6057
+*/
+
+body {
+  background-color: #A69F98;
+  font-family: Georgia, serif;
+}
+
+header {
+  color: #5C5346;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+h1 {
+    text-shadow: 1px 1px 1px #5C5346;
+    text-align: center;
+}
+
+nav {
+    margin-bottom: 15px;
+}
+
+a {
+  background-color: #AFD5AA;
+  color: #5C5346;
+  padding: 5px;
+  font-size: 18px;
+  text-decoration: none;
+  border: 3px solid #5C5346;
+  border-radius: 5px;
+}
+
+.wrapper {
+  background-color: #F0F2EF;
+  color: #5C5346;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 22px;
+  border: 3px solid #8C6057;
+  border-radius: 15px;
+  box-shadow: 5px 5px 20px #5C5346;
+}
+
+#story {
+  padding: 50px;
+  border-top: 3px dashed #8C6057;
+}
+
+#choices {
+  padding: 50px;
+}
+
+input, button {
+    color: #5C5346;
+    padding: 5px;
+    margin: 5px;
+    border: 3px solid #5C5346;
+    border-radius: 5px;
+    font-family: Georgia, serif;
+    font-size: 18px;
+}
+
+input {
+  background-color: #F0F2EF;
+
+}
+
+button {
+  background-color: #AFD5AA;
+}
+
+a:hover, button:hover {
+  background-color: #5C5346;
+  color: #AFD5AA;
+  transition-duration: 0.25s;
+}
+
+p {
+  color: #5C5346;
+}
