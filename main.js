@@ -8,123 +8,123 @@ let storyID;
 
 //story beginning
 const storyStart = `<p>Welcome to this Choose Your Own Adventure, ${userName}! Thanks for taking a look!<br>
-This story is a work in progress. It will be updated in the future once I've written the story. For now, feel free to take a look at how it all works.</p>`;
+This story is a work in progress. I ran out of time to actually write the content. It will be updated in the future once I've written the story. For now, feel free to take a look at how it all works.</p>`;
 
 //story content
 const storyContent = [
   {//0
     prompt: `First choice: option 1`,
-    content: `<p>This story is a work in progress. It will be updated in the future once I've written the story. For now, feel free to take a look at how it all works.</p>
+    content: `<p>This story is a work in progress. I ran out of time to actually write the content. It will be updated in the future once I've written the story. For now, feel free to take a look at how it all works.</p>
     <p>This part of the story would be the start of the first of two main branches in the story!</p>`
   },
   {//1
     prompt: `Continue...`,
-    content: `<p>This story is a work in progress. It will be updated in the future once I've written the story. For now, feel free to take a look at how it all works.</p>
+    content: `<p>This story is a work in progress. I ran out of time to actually write the content. It will be updated in the future once I've written the story. For now, feel free to take a look at how it all works.</p>
     <p>This part of the story is a continuation of the first main branch of the story.</p>`
   },
   {//2
     prompt: `First choice: option 2`,
-    content: `<p>This story is a work in progress. It will be updated in the future once I've written the story. For now, feel free to take a look at how it all works.</p>
+    content: `<p>This story is a work in progress. I ran out of time to actually write the content. It will be updated in the future once I've written the story. For now, feel free to take a look at how it all works.</p>
     <p>This part of the story would be the start of the second of two main branches in the story!</p>`
   },
   {//3
     prompt: `Continue...`,
-    content: `<p>This story is a work in progress. It will be updated in the future once I've written the story. For now, feel free to take a look at how it all works.</p>
+    content: `<p>This story is a work in progress. I ran out of time to actually write the content. It will be updated in the future once I've written the story. For now, feel free to take a look at how it all works.</p>
     <p>This part of the story is a continuation of the second main branch of the story.</p>`
   },
   {//4
     prompt: `Second choice: option 1`,
-    content: `<p>This story is a work in progress. It will be updated in the future once I've written the story. For now, feel free to take a look at how it all works.</p>
+    content: `<p>This story is a work in progress. I ran out of time to actually write the content. It will be updated in the future once I've written the story. For now, feel free to take a look at how it all works.</p>
     <p>This part of the story would explore one of two ways the last decision could play out.</p>`
   },
   {//5
     prompt: `Third choice: option 1`,
-    content: `<p>This story is a work in progress. It will be updated in the future once I've written the story. For now, feel free to take a look at how it all works.</p>
+    content: `<p>This story is a work in progress. I ran out of time to actually write the content. It will be updated in the future once I've written the story. For now, feel free to take a look at how it all works.</p>
     <p>This is one result of the third choice in this branch.</p>`
   },
   {//6
     prompt: `Second choice: option 2`,
-    content: `<p>This story is a work in progress. It will be updated in the future once I've written the story. For now, feel free to take a look at how it all works.</p>
+    content: `<p>This story is a work in progress. I ran out of time to actually write the content. It will be updated in the future once I've written the story. For now, feel free to take a look at how it all works.</p>
     <p>This part of the story would explore the second of two ways the last decision could play out.</p>`
   },
   {//7
     prompt:`Third choice: option 2`,
-    content: `<p>This story is a work in progress. It will be updated in the future once I've written the story. For now, feel free to take a look at how it all works.</p>
+    content: `<p>This story is a work in progress. I ran out of time to actually write the content. It will be updated in the future once I've written the story. For now, feel free to take a look at how it all works.</p>
     <p>This is the second result of the third choice in this branch.</p>`
   },
   {//8
     prompt: `Second choice: option 1`,
-    content: `<p>This story is a work in progress. It will be updated in the future once I've written the story. For now, feel free to take a look at how it all works.</p>
+    content: `<p>This story is a work in progress. I ran out of time to actually write the content. It will be updated in the future once I've written the story. For now, feel free to take a look at how it all works.</p>
     <p>This part of the story would explore the first of two ways the last decision could play out.</p>`
   },
   {//9
     prompt: `Third choice: option 1`,
-    content: `<p>This story is a work in progress. It will be updated in the future once I've written the story. For now, feel free to take a look at how it all works.</p>
+    content: `<p>This story is a work in progress. I ran out of time to actually write the content. It will be updated in the future once I've written the story. For now, feel free to take a look at how it all works.</p>
     <p>This is one result of the third choice in this branch.</p>`
   },
   {//10
     prompt: `Second choice: option 2`,
-    content: `<p>This story is a work in progress. It will be updated in the future once I've written the story. For now, feel free to take a look at how it all works.</p>
+    content: `<p>This story is a work in progress. I ran out of time to actually write the content. It will be updated in the future once I've written the story. For now, feel free to take a look at how it all works.</p>
     <p>This part of the story would explore the second of two ways the last decision could play out.</p>`
   },
   {//11
     prompt: `Third choice: option 2`,
-    content: `<p>This story is a work in progress. It will be updated in the future once I've written the story. For now, feel free to take a look at how it all works.</p>
+    content: `<p>This story is a work in progress. I ran out of time to actually write the content. It will be updated in the future once I've written the story. For now, feel free to take a look at how it all works.</p>
     <p>This is the second result of the third choice in this branch.</p>`
   },
   {//12
     prompt: `Continue...`,
-    content: `<p>This story is a work in progress. It will be updated in the future once I've written the story. For now, feel free to take a look at how it all works.</p>
+    content: `<p>This story is a work in progress. I ran out of time to actually write the content. It will be updated in the future once I've written the story. For now, feel free to take a look at how it all works.</p>
     <p>From this point in the story, things come back to the first main branch in the story.</p>`
   },
   {//13
     prompt: `Continue...`,
-    content: `<p>This story is a work in progress. It will be updated in the future once I've written the story. For now, feel free to take a look at how it all works.</p>
+    content: `<p>This story is a work in progress. I ran out of time to actually write the content. It will be updated in the future once I've written the story. For now, feel free to take a look at how it all works.</p>
     <p>From this point in the story, things come back to the second main branch in the story.</p>`
   },
   {//14
     prompt: `Ending 1 of 8`,
-    content: `<p>This story is a work in progress. It will be updated in the future once I've written the story. For now, feel free to take a look at how it all works.</p>
+    content: `<p>This story is a work in progress. I ran out of time to actually write the content. It will be updated in the future once I've written the story. For now, feel free to take a look at how it all works.</p>
     <p>This is the first possible ending of the story.</p>`
   },
   {//15
     prompt: `Ending 2 of 8`,
-    content: `<p>This story is a work in progress. It will be updated in the future once I've written the story. For now, feel free to take a look at how it all works.</p>
+    content: `<p>This story is a work in progress. I ran out of time to actually write the content. It will be updated in the future once I've written the story. For now, feel free to take a look at how it all works.</p>
     <p>This is the second possible ending of the story.</p>`
   },
   {//16
     prompt: `Ending 3 of 8`,
-    content: `<p>This story is a work in progress. It will be updated in the future once I've written the story. For now, feel free to take a look at how it all works.</p>
+    content: `<p>This story is a work in progress. I ran out of time to actually write the content. It will be updated in the future once I've written the story. For now, feel free to take a look at how it all works.</p>
     <p>This is the third possible ending of the story.</p>`
   },
   {//17
     prompt: `Ending 4 of 8`,
-    content: `<p>This story is a work in progress. It will be updated in the future once I've written the story. For now, feel free to take a look at how it all works.</p>
+    content: `<p>This story is a work in progress. I ran out of time to actually write the content. It will be updated in the future once I've written the story. For now, feel free to take a look at how it all works.</p>
     <p>This is the fourth possible ending of the story.</p>`
   },
   {//18
     prompt: `Ending 5 of 8`,
-    content: `<p>This story is a work in progress. It will be updated in the future once I've written the story. For now, feel free to take a look at how it all works.</p>
+    content: `<p>This story is a work in progress. I ran out of time to actually write the content. It will be updated in the future once I've written the story. For now, feel free to take a look at how it all works.</p>
     <p>This is the fifth possible ending of the story.</p>`
   },
   {//19
     prompt: `Ending 6 of 8`,
-    content: `<p>This story is a work in progress. It will be updated in the future once I've written the story. For now, feel free to take a look at how it all works.</p>
+    content: `<p>This story is a work in progress. I ran out of time to actually write the content. It will be updated in the future once I've written the story. For now, feel free to take a look at how it all works.</p>
     <p>This is the sixth possible ending of the story.</p>`
   },
   {//20
     prompt: `Ending 7 of 8`,
-    content: `<p>This story is a work in progress. It will be updated in the future once I've written the story. For now, feel free to take a look at how it all works.</p>
+    content: `<p>This story is a work in progress. I ran out of time to actually write the content. It will be updated in the future once I've written the story. For now, feel free to take a look at how it all works.</p>
     <p>This is the seventh possible ending of the story.</p>`
   },
   {//21
     prompt: `Ending 8 of 8`,
-    content: `<p>This story is a work in progress. It will be updated in the future once I've written the story. For now, feel free to take a look at how it all works.</p>
+    content: `<p>This story is a work in progress. I ran out of time to actually write the content. It will be updated in the future once I've written the story. For now, feel free to take a look at how it all works.</p>
     <p>This is the eighth possible ending of the story.</p>`
   },
   {//22
     prompt: `???`,
-    content: `<p>This story is a work in progress. It will be updated in the future once I've written the story. For now, feel free to take a look at how it all works.</p>
+    content: `<p>This story is a work in progress. I ran out of time to actually write the content. It will be updated in the future once I've written the story. For now, feel free to take a look at how it all works.</p>
     <p>This part of the story would be a secret ending right at the start, resulting from choosing an option that disengages you (${userName}, the "main character") from the story. Fun!</p>`
   }
 ];
